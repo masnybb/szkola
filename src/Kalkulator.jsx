@@ -38,14 +38,7 @@ const Calculator = () => {
         <button onClick={() => handleClick("5")}>5</button>
         <button onClick={() => handleClick("6")}>6</button>
         <button onClick={() => handleClick("-")}>-</button>
-        <button onClick={() => handleClick("7")}>7</button>
-        <button onClick={() => handleClick("8")}>8</button>
-        <button onClick={() => handleClick("9")}>9</button>
-        <button onClick={() => handleClick("*")}>*</button>
-        <button onClick={clearInput}>C</button>
-        <button onClick={() => handleClick("0")}>0</button>
-        <button onClick={() => handleClick("/")}>/</button>
-        <button onClick={calculateResult}>=</button>
+    
       </div>
     </div>
   );
